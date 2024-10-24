@@ -1,5 +1,6 @@
 name: Build Eleventy
-env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+env:
+    ACTIONS_ALLOW_UNSECURE_NODE_VERSION: true  # Correct key-value syntax
 on:
   push:
     branches:
