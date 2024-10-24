@@ -1,4 +1,5 @@
 name: Build Eleventy
+env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 on:
   push:
     branches:
@@ -6,7 +7,6 @@ on:
 
 jobs:
   build:
-    env: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
     runs-on: ubuntu-latest
 
     steps:
