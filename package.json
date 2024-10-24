@@ -1,1 +1,16 @@
-
+{
+  "name": "rym-eleventy",
+  "version": "1.0.0",
+  "description": "A sample Eleventy project",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "eleventy": "^2.0.0"
+  },
+  "devDependencies": {},
+  "author": "Eddy",
+  "license": "UPenn"
+}
